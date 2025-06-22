@@ -8,7 +8,8 @@
 </head>
 
 <body>
-   <h1>投稿一覧</h1><br>
+   <h1>投稿一覧</h1>
+   <a href="<?php echo e(route('posts.create')); ?>">新規登録</a>
 
    <table border="0" cellpadding="10">
        <thead>
